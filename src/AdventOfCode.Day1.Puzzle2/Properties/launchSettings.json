@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AdventOfCode.Day1.Puzzle2": {
+      "commandName": "Project",
+      "commandLineArgs": "$(RepositoryInputDirectory)\\day1\\input.txt"
+    }
+  }
+}
