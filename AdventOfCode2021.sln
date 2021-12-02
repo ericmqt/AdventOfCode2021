@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day1.Puzzle1", "src\AdventOfCode.Day1.Puzzle1\AdventOfCode.Day1.Puzzle1.csproj", "{B58A2AB3-2B96-49CB-8E93-481FA24BED5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day1.Puzzle2", "src\AdventOfCode.Day1.Puzzle2\AdventOfCode.Day1.Puzzle2.csproj", "{A6FE2D3E-5D03-464C-B14F-B5694F0EE503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day1.Puzzle2", "src\AdventOfCode.Day1.Puzzle2\AdventOfCode.Day1.Puzzle2.csproj", "{A6FE2D3E-5D03-464C-B14F-B5694F0EE503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day2.Puzzle1", "src\AdventOfCode.Day2.Puzzle1\AdventOfCode.Day2.Puzzle1.csproj", "{9DA9B39E-025A-4465-94CB-47CEC3FA8F4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day2.Puzzle1", "src\AdventOfCode.Day2.Puzzle1\AdventOfCode.Day2.Puzzle1.csproj", "{9DA9B39E-025A-4465-94CB-47CEC3FA8F4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Core", "src\AdventOfCode.Core\AdventOfCode.Core.csproj", "{6B804CD7-9C44-4BD5-A05D-E308832BE583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Core", "src\AdventOfCode.Core\AdventOfCode.Core.csproj", "{6B804CD7-9C44-4BD5-A05D-E308832BE583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day2.Puzzle2", "src\AdventOfCode.Day2.Puzzle2\AdventOfCode.Day2.Puzzle2.csproj", "{3CBD8D84-2B92-4AAA-BF85-5C25CC3E4E4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6B804CD7-9C44-4BD5-A05D-E308832BE583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B804CD7-9C44-4BD5-A05D-E308832BE583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B804CD7-9C44-4BD5-A05D-E308832BE583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CBD8D84-2B92-4AAA-BF85-5C25CC3E4E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBD8D84-2B92-4AAA-BF85-5C25CC3E4E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBD8D84-2B92-4AAA-BF85-5C25CC3E4E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBD8D84-2B92-4AAA-BF85-5C25CC3E4E4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
