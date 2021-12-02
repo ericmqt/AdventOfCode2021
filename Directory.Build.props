@@ -1,0 +1,18 @@
+<Project>
+	<PropertyGroup>
+		<RepositoryRootDirectory>$(MSBuildThisFileDirectory)</RepositoryRootDirectory>
+		<RepositoryBinDirectory>$(RepositoryRootDirectory)\bin</RepositoryBinDirectory>
+		<RepositoryDefaultOutputPath>$(RepositoryBinDirectory)\$(Configuration)-$(Platform)</RepositoryDefaultOutputPath>
+		<RepositorySourceDirectory>$(RepositoryRootDirectory)\src</RepositorySourceDirectory>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<OutputPath>$(RepositoryDefaultOutputPath)\$(MSBuildProjectName)</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+</Project>
