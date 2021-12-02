@@ -4,17 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdventOfCode.Day2.Puzzle1
-{
-    public struct SubmarineCommand
-    {
-        public SubmarineCommand(SubmarineCommandDirection direction, int magnitude)
-        {
-            Direction = direction;
-            Magnitude = magnitude;
-        }
+namespace AdventOfCode.Day2.Puzzle1;
 
-        public SubmarineCommandDirection Direction { get; }
-        public int Magnitude { get; }
+public struct SubmarineCommand
+{
+    public SubmarineCommand(SubmarineCommandDirection direction, int magnitude)
+    {
+        Direction = direction;
+        Magnitude = magnitude;
     }
+
+    public SubmarineCommandDirection Direction { get; }
+    public int Magnitude { get; }
 }
