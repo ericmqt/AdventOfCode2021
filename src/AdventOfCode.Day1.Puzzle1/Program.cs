@@ -39,8 +39,6 @@
 
         foreach (var depth in depthMeasurements.Skip(1))
         {
-            var depthIncreased = depth > previousDepth;
-
             if (depth > previousDepth)
             {
                 depthMeasurementIncreases++;
