@@ -2,6 +2,7 @@
 	<PropertyGroup>
 		<RepositoryRootDirectory>$(MSBuildThisFileDirectory)</RepositoryRootDirectory>
 		<RepositoryBinDirectory>$(RepositoryRootDirectory)\bin</RepositoryBinDirectory>
+		<RepositoryInputDirectory>$(RepositoryRootDirectory)\input</RepositoryInputDirectory>
 		<RepositoryDefaultOutputPath>$(RepositoryBinDirectory)\$(Configuration)-$(Platform)</RepositoryDefaultOutputPath>
 		<RepositorySourceDirectory>$(RepositoryRootDirectory)\src</RepositorySourceDirectory>
 	</PropertyGroup>
