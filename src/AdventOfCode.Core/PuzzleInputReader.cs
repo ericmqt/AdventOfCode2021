@@ -69,7 +69,7 @@ public static class PuzzleInputReader
     /// <exception cref="FileNotFoundException"><paramref name="fileName"/> refers to a file that does not exist or is inaccessible.</exception>
     /// <exception cref="PuzzleInputReaderException">Thrown when encountering a null or empty input line.</exception>
     /// <exception cref="PuzzleInputParsingException">Thrown when the parser is unable to parse a value from an input line.</exception>
-    public static async IAsyncEnumerable<T> ParseLinesAsync<T>(IPuzzleInputParser<T> parser, string fileName, [EnumeratorCancellation] CancellationToken cancellationToken = default)
+    public static async IAsyncEnumerable<T> EnumerateParsedLinesAsync<T>(IPuzzleInputParser<T> parser, string fileName, [EnumeratorCancellation] CancellationToken cancellationToken = default)
     {
         if (parser is null)
         {
@@ -114,4 +114,50 @@ public static class PuzzleInputReader
             lineNumber++;
         }
     }
+
+    /*public static async Task<IList<T>> ParseLinesAsync<T>(IPuzzleInputParser<T> parser, string fileName, CancellationToken cancellationToken = default)
+    {
+        if (parser is null)
+        {
+            throw new ArgumentNullException(nameof(parser));
+        }
+
+        if (string.IsNullOrEmpty(fileName))
+        {
+            throw new ArgumentException($"'{nameof(fileName)}' cannot be null or empty.", nameof(fileName));
+        }
+
+        if (!File.Exists(fileName))
+        {
+            throw new FileNotFoundException($"File specified by '{nameof(fileName)}' does not exist or is inaccessible", fileName);
+        }
+
+        // Keep track of line number for error reporting purposes
+        int lineNumber = 1;
+
+        await foreach (var inputLine in EnumerateLinesAsync(fileName, cancellationToken))
+        {
+            if (cancellationToken.IsCancellationRequested)
+            {
+                yield break;
+            }
+
+            T parsedValue;
+
+            try { parsedValue = parser.Parse(inputLine); }
+            catch (Exception ex)
+            {
+                throw new PuzzleInputParsingException(
+                    $"Unable to parse input line {lineNumber}. See inner exception for details.",
+                    inputLine,
+                    fileName,
+                    lineNumber,
+                    ex);
+            }
+
+            yield return parsedValue;
+
+            lineNumber++;
+        }
+    }*/
 }

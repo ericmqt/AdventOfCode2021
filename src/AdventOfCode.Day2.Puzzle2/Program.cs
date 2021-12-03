@@ -25,7 +25,7 @@ class Program
         // Parse commands
         var parser = new SubmarineCommandParser();
 
-        await foreach (var command in PuzzleInputReader.ParseLinesAsync(parser, inputFileName))
+        await foreach (var command in PuzzleInputReader.EnumerateParsedLinesAsync(parser, inputFileName))
         {
             // Get a new submarine position by transforming the current position with command direction and magnitude
             var newPosition = position.Transform(command.Direction, command.Magnitude);
