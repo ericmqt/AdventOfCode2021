@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day2.Puzzle2",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day3.Puzzle1", "src\AdventOfCode.Day3.Puzzle1\AdventOfCode.Day3.Puzzle1.csproj", "{6716F97F-37DD-4E16-A72B-D6A7797CE659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day3.Puzzle2", "src\AdventOfCode.Day3.Puzzle2\AdventOfCode.Day3.Puzzle2.csproj", "{ED2C78D1-ED61-459E-ACDB-BFA626C839B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day3.Puzzle2", "src\AdventOfCode.Day3.Puzzle2\AdventOfCode.Day3.Puzzle2.csproj", "{ED2C78D1-ED61-459E-ACDB-BFA626C839B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day4.Puzzle1", "src\AdventOfCode.Day4.Puzzle1\AdventOfCode.Day4.Puzzle1.csproj", "{E3037552-D6F4-4BFA-9F1F-EA7599755930}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Day4.Puzzle1", "src\AdventOfCode.Day4.Puzzle1\AdventOfCode.Day4.Puzzle1.csproj", "{E3037552-D6F4-4BFA-9F1F-EA7599755930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Day4.Puzzle2", "src\AdventOfCode.Day4.Puzzle2\AdventOfCode.Day4.Puzzle2.csproj", "{95726CF9-1FDA-41A6-8749-EC7CD7ED759B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{E3037552-D6F4-4BFA-9F1F-EA7599755930}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3037552-D6F4-4BFA-9F1F-EA7599755930}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3037552-D6F4-4BFA-9F1F-EA7599755930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95726CF9-1FDA-41A6-8749-EC7CD7ED759B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95726CF9-1FDA-41A6-8749-EC7CD7ED759B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95726CF9-1FDA-41A6-8749-EC7CD7ED759B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95726CF9-1FDA-41A6-8749-EC7CD7ED759B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
